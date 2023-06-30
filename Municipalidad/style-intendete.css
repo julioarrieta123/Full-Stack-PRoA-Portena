@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("img/plaza-plaza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin top: 100px;
+    padding: 0;
+    background: #fff;
+    color: #fff;
+    padding: 20px ;
+    width: 100%;
+    transition: transform 0.2s;
+    z-index: 9999;
+}
+
+
+header.sticky { 
+  transform: translateY(-50%);
+}
+main {
+  padding-top: 100px;
+}
+.info-bar {
+    width:100%;
+    background-color: #0D0630;
+    color: #fff;
+    padding: 15px;
+    transition: transform 0.3s;
+    
+}
+
+.info-bar img {
+    max-width: 83%;
+    height: auto;
+    position: absolute;
+    top: 3.5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    height: 100vh;
+    background-image: url('plaza-plaza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #757575;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0D0630;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #868484cc;
+  }
+  
+  .submenu {
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0D0630;
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .submenu a{
+    color: #fff;
+  }
+
+  .submenu a:hover{
+    color: #837777;
+  }
+  
+  .submenu li {
+    background-color: #0D0630;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+
+  .frame {
+    display: inline-block;
+    padding: 150px 500px;
+    background-color: #ffff;
+    color: #0D0630;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 100px; 
+    position: relative; 
+    left: 50px; 
+    top: 300px;
+  }
+  
+.mi-imagen {
+  width:280px ;
+  height:auto;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  
+
+
+}
+
+
+

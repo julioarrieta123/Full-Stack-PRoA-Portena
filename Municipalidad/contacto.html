@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+     <style>
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0a1869;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #0D0630;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <img src="img/logo-portena.png"  width="170">
+            <ul class="menu">
+                <ul class="nav-links">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#">Gobierno</a>
+                    <ul class="submenu">
+                      <li><a href="Intendente.html">Intendente</a></li>
+                      <li><a href="consejodedeliberantes.html">Consejo deliberante</a></li>
+                      <li><a href="Tribunaldecuentas.html">Tribunal de cuentas</a></li>
+                      <li><a href="#">Sec. de Gobierno y R.R. I.I.</a></li>
+                      <li><a href="#">Sec. de Hacienda</a></li>
+                      <li><a href="#">Sec. de Salud</a></li>
+                      <li><a href="#">Sec. de ser. público y med. ambiente</a></li>
+                      <li><a href="#">Direcc. de Cultura</a></li>
+                      <li><a href="#">Direcc. de Educación</a></li>
+                      <li><a href="#">Direcc. de Deporte</a></li>
+                      <li><a href="#">Direcc. de Salud</a></li>
+                    </ul>
+                  </li>
+                  
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="form-container">
+    <form>
+        <input type="text" name="nombre" id="name_user" placeholder="Ingrese su nombre:">
+        <input type="email" name="mail" id="mail_user" placeholder="Ingrese su correo:">
+        <button onclick="alert('Enviado con exito')" name="Enviar" placeholder="Enviar"></button>
+    </form>
+    </div>
+
+    
+</body>
+</html>
